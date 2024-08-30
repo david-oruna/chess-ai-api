@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <script type="module" src="https://unpkg.com/chessboard-element?module"></script>
+    <script type="module" src="legalmoves.js"></script>
+    <link rel ="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <chess-board
+    style="width: 400px"
+    position="start"
+    draggable-pieces>
+</chess-board>
+
+<label>Status:</label>
+<div id="status"></div>
+<label>FEN:</label>
+<div id="fen"></div>
+<label>PGN:</label>
+<div id="pgn"></div>
+</body>
+</html>
